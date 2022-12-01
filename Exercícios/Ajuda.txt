@@ -1,0 +1,23 @@
+Para links = TARGET_BLANK ( o site clicado abrira em outra pagina )
+
+Tamanhos =
+height(Altura)
+width( Largura ) 
+Border( Borda )
+
+# = id ( um so elemento)
+. = classe (varios elementos)
+: = pseudo-classes ( estado de um determinado elemento, o estado dele)
+:: = pseudo-element
+> = clildren (filho)
+
+Div:HOVER: = Se passar o mouse em cima de algo, ira mudar de cor, igual aos links 
+
+Pseudo-class
+
+active = quando clicar, mudara de cor 
+visited = site que visitei ficara com cor diferente
+
+
+Usar quando for colocar rgb no fundo do site
+background-attachment: fixed;

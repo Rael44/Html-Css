@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    div > p {
+        display: none;
+    }
+
+    div:hover > p {
+        display: block;
+        background-color: black;
+        width:200px;
+    }
+    div:hover{
+        color:red
+    }
+    
+</style>
+<!--DIV (>) esse sinal dentro da Div,significa que tem um paragrafo dentro da Div,modificaremo somente o Paragrafo -->
+</head>
+<body>
+    <h1>Exemplos de hover</h1>
+    <p>passe o mouse sobre o texto abaixo</p>
+    
+    <div>
+    Pause o mouse aqui
+    <p>TEXTO ESCONDIDO...</p>
+    </div>
+
+<!--Repare que nosso PARAGRAFO esta dentro da Div.
+Ou seja, toda modificacao daquela div feita com o sinal (>)Ira modificar somente os PARAGRAFOS
+[div] = PAI , [>] = FILHO ; -->    
+</body>
+</html>

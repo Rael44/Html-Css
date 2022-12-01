@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens que se adptam sozinhas</title>
+</head>
+<body>
+   
+ <h1>Midía que se adptam</h1>
+  <p>Tente usar esse site em outros dispositiveis moveis ou aumente e diminua o zoom do navegador </p>
+  <picture>
+    <source media="(max-width: 750px)" srcset="Imagens/img-p.png" type="image/png">
+    <source media="(max-width: 1050px )" srcset="Imagens/img-m.png" type="image/png">
+    <img src="Imagens/img-g.png" alt="imagem flexível">
+  </picture>
+
+<h1>Reproduzindo aúdio</h1>
+<h2>Maneiras de colocar aúdio em sites</h2>
+<p>Alguns sites não funcionam certos tipos de comando para aúdio.Iremos adicionar a tag ( autoplay ) se não tocar,usaremos a tag(controls autoplay)</p>
+<p>Iremos reproduzir um aúdio em nosso site</p>
+<h2>Primeira maneira</h2>
+<audio src="midia/next steep.mp3" controls autoplay></audio>
+<h2>Segunda maneira</h2>
+<h3>Aúdios em <mark>MP3,OGG,WAV.</mark></h3>
+<p>temos 3 maneiras de exibir audio no navegador mas caso o navegador não aceitar o aúdio, deixaremos o link para o download.</p>
+<audio preload="metadata" autoplay controls loop>
+  <source src="midia/next steep.mp3" type="audio/mpeg">
+  <source src="midia/next steep.mp3" type="audio/ogg">
+  <source src="midia/next steep.mp3" type="audio/wav">
+</audio>
+<p>Para o aúdio começar tocar assim que abrir o site,usaremos a tag(auto) nem todos os navegadores irá tocar</p>
+<p>Para saber todas as características do documento em aúdio, usaremos a tag (preload="metadata") ele irá carregar as características mas não ira tocar.</p>
+<p>Para a música ficar repetindo,usaremos a tag(autoplay controls loop)</p>
+
+
+
+
+
+</body>
+</html>

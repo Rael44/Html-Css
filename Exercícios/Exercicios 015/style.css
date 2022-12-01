@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+body{
+    background-attachment: fixed;
+    background-image: linear-gradient(#5161D0,#8243B7,#D23970,#F57032,#FECC69)
+    
+}
+ main{background-color: aliceblue;(#ffff)}
+   
+ h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h2{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align:center;
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links e Âncora em HTML5 </title>
+</head>
+<body>
+
+<h1>Usando links externos e interno</h1> 
+   
+  <h2>o são links internos?</h2>
+   
+    <p>Links internos é um link usado no seu site, o usuario entrará em outras abas ou menus,mas não saíra do seu site.</p>
+  <h2>exemplos</h2>
+    
+    <p>voçê pode acessar o meu <a href="https://gustavoguanabara.github.io/"> repositorio no GitHub </p></a>
+    <p>Voçê também pode acessar <a href="https://www.youtube.com/c/rafaellaballerini">o meu YouTube 
+    </p> </a>
+
+<h1>Links Externos </h1>
+  <h2>Oque são links externos</h2>
+   <p>Links externos são os quais os usuarios saem do seu site clicando em algum link que leve ele até o Youtube,Facebook,Instagram e entre outros</p>
+
+  <h2>Exemplos</h2>
+   <p>Voçe pode acessar o meu<a href="https://gustavoguanabara.github.io/" target="_blank" rel="external"> repositorio no gitHub</a></p>
+ 
+   <p>voçê pode acessar <a href="https://www.youtube.com/c/rafaellaballerini" target="_blank" rel="external"> o meu canal no youtube</a></p>
+
+<h3>-Nota-se que eu acrescentei 2 comandos para indicar o que deve ser feito</h3>
+<h4>São eles</h4>
+
+<ul>
+ <li type="circle">(target="_blank" rel="external")</li>
+</ul>
+
+<h3>Podemos ver que agora os links estão saindo da minha página</h3>
+
+<h1>Temos também outros metodos de links internos</h1>
+<h2>vejamos</h2>
+<p>Temos que criar outro pasta e colocar o nome dela de página 02.Com isso, conseguiremos abrir links sem sair do nosso site</p>
+
+<p>Essa é a primeira parte do meu site</p>
+<p>A segunda <a href="pag002.html" rel="next">está aqui</a></p>
+
+<h2>Site em outra pasta</h2>
+<p>Caso crie um site em outra página, o comando (<"a href=""> ) não irá voltar ou entrar, pois o meu outro site nao esta naquela pasta.</p>
+<p>Só funcionará em sites de mesma pasta. Para resolver este problema devemos usar a seguinte TAG (../)</p>
+<p>Esse sinal significa:voltar.</p>
+<p>Então voltaremos pra pasta anterior e entraremos no site correto.</p>
+<h3>exemplo</h3>
+<p>Terceira página <a href="exemplo003/exemplo003.html"> clique aqui</a></p>
+<hr>
+<h1>Links para downloads</h1>
+<h3>
+    <ul>
+        <li><a href= livros/meulivro.pdf download="livros/meulivro.pdf" type="application/pdf" target="_blank">baixar livro em pdf</a></li>
+    </ul>
+</h3>
+<h4>*Podemos também colocar as seguintes tags caso o seu navegador aceite</h4>
+<h4>Irá aparecer um pop-us perguntado se aceita fazer o download</h4>
+<p>As tags são(a href="#" download=nome do arquivo a ser baixado (type="application/pdf") <mark> para arquivos em PDF</mark></p>  
+<p>Tags para <mark>arquivo ZIP</mark> (a href="#" download=nome do arquivo a ser baixado(type="application/zip")</p>
+
+<p>Download do video muito animado de goku, se gostar clique <a href='livros/mylivewallpapers-com-Dragon-Ball-Z-Dokkan-Battle-4K.mp4' download="livros/mylivewallpapers-com-Dragon-Ball-Z-Dokkan-Battle-4K.mp4" type="application/video/mp4" target="_blank"></a>
+
+</p>
+
+</body>
+</html>

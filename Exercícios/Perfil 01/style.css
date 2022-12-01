@@ -1,0 +1,28 @@
+@charset "UTF-08";
+body{
+    background-color:blueviolet ;
+}
+
+h1{
+    color: white;
+}
+
+h2{
+    color: black;
+}
+
+h3{
+    color: black;
+}
+
+p{
+    color: white;
+}
+
+li{
+    color: black;
+}
+
+a {
+    color: violet
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vídeos em HTML5</title>
+</head>
+<body>
+    <h1>Tipos de vídeos para nosso site</h1>
+     <h2>Vídeos hospesdados e codados com a tag "video", possui muuito trafego de dados. !cuidado</h2>
+     <h2>-Inserindo vídeos hospedados localmente </h2>
+      <p>Este vídeo está hospedado no meu própio servidor (meu computador)</p>
+<p><strong>Regra básica para videos ou músicas</strong>, devemos usar a tag (controls) para exibir o menu de *iniciar,pausar,som e etc.</p>
+<p>Para o vídeo acabar e recomeçar novamente, tag(loop)</p>
+
+      <h3>Para inserir o video usaremos a tag(video src=") caso o video esteja grande no site, diminuiremos ele com a tag (width)</h3>
+ <video src="midia/laranja.mp4" width="200" controls loop></video>
+
+ <h1>Lembrando que : nem todos navegadores aceitam o formato de video em <mark>MP4, OGV, M4V, WEBM.</mark></h1>
+ <h2>Devemos ter os vídeos nesses<mark> 4 formatos</mark> para que possamos fazer eles funcionarem</h2>
+ <h2>Para resolver este problema, usaremos também a tag de "video" mas em um formato diferente</h2>
+
+ <video controls width="200" >
+   <source src="midia/laranja.mp4" width="200" type="video/mp4">
+   <source src="midia/laranja.m4v" type="video/mp4">    
+   <source src="midia/laranja.webm" type="video/webm">
+   <source src="midia/laranja.ogv" type="video/ogg">
+
+  </video> 
+ 
+<h3>DICA:caso o vídeo comece com um frame feio. aparecendo detalhes, podemos usar uma tubnail (capa)</h3>
+<h3>Usaremos a tag (poster="")</h3> 
+
+<h1>Vídeos hospedados online e sem custos (YouTube)</h1>
+<p>Primeira coisa a ser feita e copiar o codigo incorporado que fica na aba de "compartilhar" do YouTube</p>
+
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/JO72ZmNcJto" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+ <h2>Para codar esse video não usaremos tag, apenas colaremos o que copiamos. </h2>
+
+
+</body>
+</html>
